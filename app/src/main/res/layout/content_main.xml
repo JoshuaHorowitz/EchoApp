@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <!--Banner-->
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Please type in the text box below and then hit the button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        tools:ignore="MissingConstraints" />
+
+    <!--Input-->
+    <EditText
+        android:id="@+id/text_to_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="16" />
+
+    <!--Output-->
+    <TextView
+        android:id="@+id/copied_text"
+        android:text="@string/this_is_joshua_horowitz_s_echo_app"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <!--Button for copying-->
+    <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/copy"/>
+
+
+
+
+</LinearLayout>

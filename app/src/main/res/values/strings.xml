@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EchoApp</string>
+    <string name="this_is_joshua_horowitz_s_echo_app">This is Joshua Horowitz\'s Echo App</string>
+    <string name="copy">Copy</string>
+</resources>
